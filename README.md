@@ -2,7 +2,6 @@
 
 A Cloudflare Worker Github OAuth proxy for [Decap CMS](https://github.com/decaporg/decap-cms). This allows for deploying Decap without the Netlify Identity or Git Gateway services required to handle Github authentication so that the CMS client can make Github API calls.
 
-
 ## Overview
 
 Suppose you have a website that is generated from some source files on GitHub and you want to provide an admin page where people who lack an understanding of git or HTML can edit the source files using a friendly browser-based interface. Decap CMS provides such an interface and can be configured to work with Github as the back-end, using Cloudflare to serve an [OAuth Proxy](https://decapcms.org/docs/backends-overview/#using-github-with-an-oauth-proxy) that will act as an authentication go-between.
